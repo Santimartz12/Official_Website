@@ -1,18 +1,20 @@
 header{
-    background-color: black;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    background: black;
     display: flex;
 }
 
 #logoheader{
-    width: 60px;
-    margin: 18px;
+    width: 80px;
+    margin: 20px 220px;
 }
 
 ul{
+    align-items: center;
+    margin: 0 220px 0 auto;
     display: flex;
-    position: absolute;
-    top: 48px;
-    right: 220px;
 }
 
 li{
@@ -27,3 +29,72 @@ li{
     font-size: 25px;
     text-decoration: none;
 }
+
+body{
+    background: black;
+}
+
+.imagenportada{
+    margin-top: 119px;
+    width: 100%;
+}
+
+.infoproyecto{
+    width: 100%;
+    margin: 0;
+    padding: 90px 0 40px 0;
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.tituloinfo{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0px 0 45px 0;
+}
+
+.contenidoinfo{
+    width: 70%;
+    font-size: 30px;
+    margin: 0 auto 0px auto;
+}
+
+#artconcept{
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#perfil{
+    width: 40%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#Turnaround{
+    width: 75%;
+}
+
+.imagenmuestra{
+    width: 100%;
+}
+
+#traileryoutube{
+    width: 930px;
+    height: 523px;
+}
+
+footer{
+    width: 100%;
+}
+.logofooter{
+    width: 20%;
+    margin: 50px 40%;
+}
+
+
