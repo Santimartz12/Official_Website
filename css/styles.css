@@ -97,4 +97,66 @@ footer{
     margin: 50px 40%;
 }
 
+#Listafamilia{
+    margin-top: 40px;
+    width: 100%;
+    background: #530000;
+    padding: 50px 0;
+}
 
+.tituloblanco{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.textoblanco{
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    color: white;
+    font-family: 'Montserrat','sans-serif';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#listadofamilia{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.imagenesfamilia{
+    align-items: center;
+    width: 100%;
+    margin: 0 0;
+}
+
+.elementosfamilia{
+    margin: 40px 20px 0 20px;
+}
+
+#galeria{
+    width: 100%;
+    margin-top: 45px;
+    padding: 40px 0;
+    background: #530000;
+}
+
+.filas{
+    margin-top: 40px;
+}
+
+.columnas{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+}
+
+.imagenesgaleria{
+    width: 100%;
+    margin: 10px;
+}
