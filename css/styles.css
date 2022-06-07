@@ -265,16 +265,48 @@ footer{
 }
 
 .textoinfo{
-    line-height: 1.2em;
+    line-height: 1.1em;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+
+}
+
+.miinfo{
+    padding-left:40px;
+    display: inline-block;
+}
+
+.imagenyop{
+    height: 400px;
+}
+
+.seccionesmenu{
+    background: #530000;
+    padding: 20px;
+    width: 600px;
+    display: flex;
+    text-decoration-line: none;
+    margin: 20px 20px;
+}
+
+.textomenu{
+    text-decoration: none;
+    margin: 20px 20px 0 20px;
+    line-height: 1.1em;
     color: white;
     font-size: 20px;
     font-family: 'Montserrat',sans-serif;
 }
 
-.miinfo{
-    padding-left:40px;
+.imagenesmenu{
+    height: 200px;
 }
 
-.imagenyop{
-    height: 400px;
+.menuindex{
+    width: 90%;
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
