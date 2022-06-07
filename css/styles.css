@@ -211,3 +211,47 @@ footer{
     padding: 50px 0;
     background: #013912;
 }
+
+.logoscontacto{
+    width: 50px;
+    margin: 15px;
+}
+
+.contenedortextoylogos{
+    width: 312px;
+    display: block;
+}
+
+.contenedorescontactos{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+}
+
+
+.contenedoreslogos{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.textocontacto{
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contenedorescorreos{
+    width: 40%;
+    margin: auto;
+}
+
+.textoblancocontacto{
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
