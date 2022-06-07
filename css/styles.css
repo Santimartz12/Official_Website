@@ -156,9 +156,9 @@ footer{
 }
 
 .columnas{
-    margin: 0 auto;
+    margin: 45px auto 0 auto;
     width: 90%;
-    display: flex;
+    display: block;
 }
 
 .infoproyectos{
@@ -173,7 +173,7 @@ footer{
 }
 
 .imagenesgaleria{
-    width: 100%;
+    width: 250px;
     margin: 10px;
 }
 
@@ -254,4 +254,27 @@ footer{
     color: white;
     text-decoration: none;
     text-align: center;
+}
+
+.acercade{
+    width: 70%;
+    padding: 70px 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.textoinfo{
+    line-height: 1.2em;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.miinfo{
+    padding-left:40px;
+}
+
+.imagenyop{
+    height: 400px;
 }
