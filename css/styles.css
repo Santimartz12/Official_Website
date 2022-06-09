@@ -6,14 +6,31 @@ header{
     display: flex;
 }
 
+.menuicon{
+    height: 50px;
+    position: fixed;
+    top: 35px;
+    right: 95px;
+    cursor: pointer;
+    display: none;
+}
+
+.imagenmenu{
+    display: none;
+}
+
+.backmenu{
+    display: none;
+}
+
 #logoheader{
     width: 80px;
-    margin: 20px 220px;
+    margin: 20px 0 20px 180px;
 }
 
 ul{
     align-items: center;
-    margin: 0 220px 0 auto;
+    margin: 0 180px 0 auto;
     display: flex;
 }
 
@@ -85,8 +102,8 @@ body{
 }
 
 #traileryoutube{
-    width: 930px;
-    height: 523px;
+    width: 70%;
+    height: 626px;
 }
 
 footer{
@@ -117,6 +134,18 @@ footer{
     font-weight: 600;
     margin-top: 20px;
     text-align: center;
+    margin: 0 50px;
+}
+
+.tituloblancomenu{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+    text-align: center;
+    margin: 0 50px;
 }
 
 .textoblanco{
@@ -132,11 +161,14 @@ footer{
 #listadofamilia{
     width: 80%;
     margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .imagenesfamilia{
     align-items: center;
-    width: 100%;
+    width: 250px;
     margin: 0 0;
 }
 
@@ -158,7 +190,9 @@ footer{
 .columnas{
     margin: 45px auto 0 auto;
     width: 90%;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .infoproyectos{
@@ -182,14 +216,12 @@ footer{
     background: #001833;
 }
 
-.columnasproyectos2{
-    width: 685px;
+.columnasproyectos{
+    width: 70%;
     margin: 50px auto 0 auto;
-}
-
-.columnasproyectos3{
-    width: 1030px;
-    margin: 50px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .imagenesproyectos{
@@ -261,7 +293,6 @@ footer{
     padding: 70px 0;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
 }
 
 .textoinfo{
@@ -269,16 +300,13 @@ footer{
     color: white;
     font-size: 20px;
     font-family: 'Montserrat',sans-serif;
-
-}
-
-.miinfo{
-    padding-left:40px;
-    display: inline-block;
 }
 
 .imagenyop{
     height: 400px;
+    clear: left;
+    float: left;
+    margin: 0 40px 20px 0;
 }
 
 .seccionesmenu{
@@ -287,7 +315,7 @@ footer{
     width: 600px;
     display: flex;
     text-decoration-line: none;
-    margin: 20px 20px;
+    margin: 15px;
 }
 
 .textomenu{
@@ -309,4 +337,8 @@ footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.origen{
+    right: 0px;
 }

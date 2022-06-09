@@ -24,25 +24,30 @@
 
     <header>
         <a href="index.html"><img src="resources/Logos/Icon_Santimartz.svg" id="logoheader"></a>
-
-        <ul>
-            <li><a class="headerlinks" href="html/lailo.html">Lailo</a></li>
-            <li><a class="headerlinks" href="html/coded.html">Coded</a></li>
-            <li><a class="headerlinks" href="html/proyectos.html">Proyectos</a></li>
-            <li><a class="headerlinks" href="html/contacto.html">Contacto</a></li>
+        <div class="backmenu"></div>
+        <img class="menuicon" src="resources/Logos/lineasmenu.svg" alt="menu">
+        <ul id="headermenu">
+            <li><a class="headerlinks" href="html/lailo.html"><img class="imagenmenu" src="resources/Imagenes/Lailo/Imagen1.png"><p class="menuvisible">Lailo<p></a></li>
+            <li><a class="headerlinks" href="html/coded.html"><img class="imagenmenu" src="resources/Imagenes/Coded/Imagen1.png"><p class="menuvisible">Coded<p></a></li>
+            <li><a class="headerlinks" href="html/proyectos.html"><img class="imagenmenu" src="resources/Imagenes/Proyectos/Imagen1.png"><p class="menuvisible">Proyectos<p></a></li>
+            <li><a class="headerlinks" href="html/contacto.html"><img class="imagenmenu" src="resources/Imagenes/Contacto/Imagen1.png"><p class="menuvisible">Contacto<p></a></li>
         </ul>
     </header>
 
-    <main>
-        <img class="imagenportada" src="resources/Imagenes/Index/Imagen1.jpg" alt="Portada">
 
+
+    <main>
+        <div id="wrapper" >
+            <img class="imagenportada" id="imagenprincipalanimation"src="resources/Imagenes/Index/Imagen1.jpg" alt="Portada">
+        </div>
+        
         <section class="menuindex">
             <a href="html/lailo.html" style="text-decoration: none;">
 
                 <div class="seccionesmenu">
                     <img class="imagenesmenu" src="resources/Imagenes/Index/Lailo.jpg" alt="Lailo">
                     <section class="contenidomenu">
-                        <h1 class="tituloblanco" style="margin-top: 5px;">Lailo</h1>
+                        <h1 class="tituloblancomenu">Lailo</h1>
                         <p class="textomenu" style="text-align:center;">"Lailo, el mundo visto desde botones" es una
                             historia relatada a través de
                             imágenes y cortas animaciones. Conoce los personajes la historia y su galería aquí.</p>
@@ -55,14 +60,14 @@
             <a href="html/coded.html" style="text-decoration: none;">
 
                 <div class="seccionesmenu" style="background: #115300;">
-
+                    <img class="imagenesmenu" src="resources/Imagenes/Index/Coded.jpg" alt="Milo">
                     <section class="contenidomenu">
-                        <h1 class="tituloblanco" style="margin-top: 5px;">Coded</h1>
+                        <h1 class="tituloblancomenu">Coded</h1>
                         <p class="textomenu" style="text-align:center;"> Coded es un videojuego, que sigue la historia
                             de Milo, un personaje que surgió dedibo a un error de código. Conoce los avances del
                             videojuego y proceso de diseño aquí.</p>
                     </section>
-                    <img class="imagenesmenu" src="resources/Imagenes/Index/Coded.jpg" alt="Milo">
+
                 </div>
             </a>
 
@@ -72,7 +77,7 @@
 
                     <img class="imagenesmenu" src="resources/Imagenes/Index/Proyectos.jpg" alt="Proyectos">
                     <section class="contenidomenu">
-                        <h1 class="tituloblanco" style="margin-top: 5px;">Proyectos</h1>
+                        <h1 class="tituloblancomenu">Proyectos</h1>
                         <p class="textomenu" style="text-align:center;">Conoce aquí todos los proyectos que he realizado
                             durante mi etapa formativa y profesional al igual que los programas utilizados durante cada
                             uno de ellos.</p>
@@ -84,12 +89,12 @@
             <a href="html/contacto.html" style="text-decoration: none;">
 
                 <div class="seccionesmenu" style="background: #7a6a00;">
-
+                    <img class="imagenesmenu" src="resources/Imagenes/Index/Contacto.jpg" alt="Contacto">
                     <section class="contenidomenu">
-                        <h1 class="tituloblanco" style="margin-top: 5px;">Contacto</h1>
+                        <h1 class="tituloblancomenu">Contacto</h1>
                         <p class="textomenu" style="text-align:center;">Conoce tanto mis redes sociales, cómo mis otras páginas de contacto para poderte ayudar con el diseño y creación de tus proyectos multimedia.</p>
                     </section>
-                    <img class="imagenesmenu" src="resources/Imagenes/Index/Contacto.jpg" alt="Contacto">
+
 
                 </div>
 
@@ -99,7 +104,7 @@
         <h2 class="tituloblanco" style="margin-top: 70px ;">Acerca de mí</h2>
         <div class="acercade">
             <img class="imagenyop" src="resources/Imagenes/Index/Yop.jpg" alt="Foto de Santiago">
-            <section class="miinfo">
+            <section>
                 <p class="textoinfo">Hola! Soy Santiago Martínez. <br><br>Me gusta crear personajes, imaginar escenarios
                     y plasmarlos en grandiosas piezas visuales. Amo aprender de todo lo que veo y me gusta aplicar todos
                     esos conocimientos a proyectos tanto personales como profesionales. Desde los 12 años veía a mi papá
@@ -113,6 +118,8 @@
             </section>
         </div>
     </main>
+
+    <script src="js/scriptbotones.js"></script>
 
     <footer>
         <img class="logofootersantimartz" src="resources/Logos/Icon_Santimartz.svg" alt="Logo Contacto">

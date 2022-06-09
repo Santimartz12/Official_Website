@@ -1,2 +1,354 @@
+@media screen and (max-width: 1300px) {
+
+    #logoheader {
+        margin: 20px auto 20px 100px;
+    }
+
+    ul {
+        margin: 0 100px 0 auto;
+    }
+
+    #traileryoutube{
+        width: 70%;
+        height: 500px;
+    }
+
+    .infoproyecto{
+        width: 100%;
+        padding: 50px 0 30px 0;
+    }
+
+    .tituloinfo{
+        font-size: 45px;
+        margin: 0px 0 45px 0;
+    }
+
+    .contenidoinfo{
+        font-size: 25px;
+    }
+
+    .contenedorescontactos{
+        width: 80%;
+        margin: 50px auto;
+    }    
+}
+
+@media screen and (max-width: 1030px) {
+    
+    #headermenu{
+        padding-top: 120px;
+        position: fixed;
+        top: 0;
+        right: -400px;
+        margin: 0;
+        background-color: rgb(40, 40, 40);
+        width: 400px;
+        height: 100%;
+        flex-direction: column;
+        z-index: 1;
+    }
+
+    header li{
+        margin: 0;
+    }
+
+    .headerlinks{
+        display: inline;
+        width: 100%;
+        text-align: right;
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .backmenu{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 55%;
+        background-color: black;
+        display: none;
+    }
+
+    .menuvisible{
+        display: none;
+    }
+
+    .imagenmenu{
+        display: block;
+        width: 100%;
+        -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.43);
+        -moz-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.43);
+        box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.43);
+    }
+
+    .menuicon{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 780px){
+
+    .contenedorescontactos {
+        width: 80%;
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .textocontacto {
+        font-size: 30px;
+    }
+
+    .contenedorescorreos {
+        width: 100%;
+        margin: auto;
+    }
+
+    .contenedortextoylogos {
+        width: 90%;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .contenedoreslogos {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
 
+    .menuindex {
+        width: 90%;
+        margin: 120px auto 120px 18%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .seccionesmenu {
+        padding: 20px;
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tituloblancomenu {
+        font-size: 50px;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        margin-top: 5px;
+        text-align: center;
+        margin: 15px 50px 0px 50px;
+    }
+
+    .imagenesmenu {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    header{
+        position: fixed;
+        top: 0px;
+        height: 80px;
+        z-index: 1;
+    }
+
+    #logoheader {
+        height: 50px;
+        margin: 15px 20px 15px 0px;
+    }
+
+    .menuicon {
+        height: 33px;
+        top: 24px;
+        right: 19px;
+    }
+
+    .imagenportada {
+        margin-top: 80px;
+        z-index: -1;
+    }
+
+    #imagenprincipalanimation{
+        position: relative;
+        left: 0px;
+        height: 200px;
+        width: auto;
+        animation-duration: 20s;
+        animation-name: moverportada;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+    }
+
+    @keyframes moverportada {
+        from{
+          left: 0px;
+        }
+      
+        to {
+         left: -445px;
+        }
+    }
+
+    #wrapper{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .menuindex{
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    #traileryoutube{
+        width: 70%;
+        height: 500px;
+    }
+
+    .infoproyecto{
+        width: 100%;
+        padding: 50px 0 30px 0;
+    }
+
+    .tituloinfo{
+        font-size: 45px;
+        margin: 0px 0 45px 0;
+    }
+
+    .contenidoinfo{
+        font-size: 16px;
+        width: 86%;
+    }
+
+    .contenedorescorreos {
+        width: 100%;
+        margin: auto;
+    }
+
+    .imagenyop{
+        width: 100%;
+        height: auto;  
+        margin: 0 auto 50px auto;
+    }
+
+    .textoinfo{
+        font-size: 1em;
+        text-align:center;
+    }
+
+    .logofootersantimartz{
+        width: 20%;
+        margin: 50px 40% 50px 40%;
+    }
+
+    .acercade {
+        padding: 55px 0;
+    }
+
+    .tituloblanco {
+        font-size: 35px;
+    }
+
+    .tituloinfo {
+        font-size: 35px;
+        margin: 0px 0 20px 0;
+    }
+
+    #traileryoutube{
+        width: 70%;
+        height: 300px;
+    }
+
+    .imagenesgaleria {
+        width: 150px;
+    }
+
+    .columnas {
+        margin: 30px auto 0 auto;
+    }
+
+    #galeria {
+        margin-top: 20px;
+    }
+
+    .textoblanco {
+        width: 80%;
+    }
+
+    #listadofamilia {
+        width: 94%;
+    }
+
+    .imagenesfamilia {
+        width: 140px;
+    }
+
+    .logofooter {
+        width: 35%;
+        margin: 50px 32.5%;
+    }
+
+    #perfil {
+        margin-bottom: 25px;
+    }
+
+    #artconcept {
+        margin-bottom: 25px;
+    }
+
+    .infoproyectos {
+        padding: 45px 0 45px 0;
+    }
+
+    .columnasproyectos {
+        width: 95%;
+    }
+
+    .imagenesproyectos {
+        width: 150px;
+        margin: 10px;
+    }
+
+    .seccionesmenu {
+        padding: 20px;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tituloblancomenu {
+        font-size: 30px;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        margin: 25px auto;
+    }
+
+    .imagenesmenu {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    #headermenu{
+        width: 100%;
+    }
+
+}
