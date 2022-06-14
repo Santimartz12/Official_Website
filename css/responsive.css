@@ -36,7 +36,7 @@
 @media screen and (max-width: 1030px) {
     
     #headermenu{
-        padding-top: 120px;
+        padding-top: 0px;
         position: fixed;
         top: 0;
         right: -400px;
